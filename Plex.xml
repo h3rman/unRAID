@@ -43,5 +43,5 @@
   <Banner>http://i.imgur.com/QIlqqof.png</Banner>
   <Icon>http://i.imgur.com/4KT9H3y.png</Icon>
   <Config Type="Variable" Name="Claim code" Target="PLEX_CLAIM" Default="" Display="always" Required="true"
-       Description="This is Sync's Web UI port you can access via a web browser.">PLEX_CLAAAAIM</Config>
+          Description="Associate the plex server with a claim key acquired at <a href='https://www.plex.tv/claim/'>https://www.plex.tv/claim/</a>"></Config>
 </Container>
