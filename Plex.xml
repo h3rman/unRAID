@@ -21,7 +21,13 @@
     <Mode>host</Mode>
     <Publish/>
   </Networking>
-  <Environment/>
+  <Environment>
+    <Variable>
+      <Value></Value>
+      <Name>PLEX_CLAIM</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/plexmediaserver</HostDir>
@@ -41,4 +47,5 @@
   <WebUI>http://[IP]:[PORT:32400]/web/index.html</WebUI>
   <Banner>http://i.imgur.com/QIlqqof.png</Banner>
   <Icon>http://i.imgur.com/4KT9H3y.png</Icon>
+  <Config Name="Plex claim" Target="PLEX_CLAIM" Default="" Mode="" Description="Get your claim key at <a href='https://www.plex.tv/claim/'>https://www.plex.tv/claim/</a>" Type="Variable" Display="always" Required="false" Mask="false">PLEX_CLAIM_VALUE</Config>
 </Containers>
