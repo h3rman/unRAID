@@ -33,6 +33,10 @@
       <ContainerDir>/media</ContainerDir>
       <Mode>r</Mode>
     </Volume>
+    <HostDir>/tmp/plex</HostDir>
+      <ContainerDir>/transcode</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:32400]/web/index.html</WebUI>
   <Banner>http://i.imgur.com/QIlqqof.png</Banner>
