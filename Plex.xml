@@ -33,7 +33,8 @@
       <ContainerDir>/media</ContainerDir>
       <Mode>r</Mode>
     </Volume>
-    <HostDir>/tmp/plex</HostDir>
+    <Volume>
+      <HostDir>/tmp/plex</HostDir>
       <ContainerDir>/transcode</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
