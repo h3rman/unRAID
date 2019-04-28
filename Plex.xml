@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Containers>
+<Container>
   <Beta>False</Beta>
 <Category>MediaApp:Video MediaApp:Music MediaApp:Photos MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <Name>Plex</Name>
@@ -21,13 +21,7 @@
     <Mode>host</Mode>
     <Publish/>
   </Networking>
-  <Environment>
-    <Variable>
-      <Value></Value>
-      <Name>PLEX_CLAIM</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
+  <Environment/>
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/plexmediaserver</HostDir>
@@ -47,5 +41,6 @@
   <WebUI>http://[IP]:[PORT:32400]/web/index.html</WebUI>
   <Banner>http://i.imgur.com/QIlqqof.png</Banner>
   <Icon>http://i.imgur.com/4KT9H3y.png</Icon>
-  <Config Name="Plex claim" Target="PLEX_CLAIM" Default="" Mode="" Description="Get your claim key at <a href='https://www.plex.tv/claim/'>https://www.plex.tv/claim/</a>" Type="Variable" Display="always" Required="false" Mask="false">PLEX_CLAIM_VALUE</Config>
-</Containers>
+  <Config Type="Variable" Name="Claim code" Target="PLEX_CLAIM" Default="" Display="always" Required="true"
+       Description="This is Sync's Web UI port you can access via a web browser.">PLEX_CLAAAAIM</Config>
+</Container>
