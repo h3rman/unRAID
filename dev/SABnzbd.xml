@@ -2,7 +2,7 @@
 <Container>
   <Beta>False</Beta>
 <Category>MediaApp:Video MediaApp:Music MediaApp:Photos MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
-  <Name>Plex</Name>
+  <Name>SABnzbd</Name>
   <Overview>
     The Plex Media Server enriches your life by organizing all your personal media, presenting it beautifully and streaming it to all of your devices. It's easy to use, it's awesome, and it's free!
   </Overview>
